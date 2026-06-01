@@ -4,16 +4,14 @@
 #include <SD.h>
 #include <SerialFlash.h>
 
-// Audio Sample Import - Nice Marmot Blend
+// Include your sample here with wav2sketch!
 #include "AudioSampleKick.h"
 
 // Teensy Setup
-AudioInputUSB            usbInput;           //xy=283,342
 AudioInputI2S            audioInputMono;           //xy=295,416
 AudioPlayMemory          sampleInMemory;       //xy=395,489
 AudioAnalyzePeak         peakAnalyser;          //xy=484,417
 AudioOutputI2S           headphoneOutput;           //xy=502,343
-AudioOutputUSB           usbOutput;           //xy=569,485
 
 // Patch mono line-in audio jack to peak analyser
 AudioConnection          patchCord1(audioInputMono, 0, peakAnalyser, 0);
