@@ -19,7 +19,7 @@ The Mono Jack is soldered to the left channel audio input I2S of the audio shiel
 
 ### Getting Started
 
-### Get the required Hardware
+#### Get the required Hardware
 - Teensy 4.0 with headers (think of headers like solderless plug&play)
 - Teensy Audioshield
 - Female Headers, 50pc (to solder onto the Audioshield)
